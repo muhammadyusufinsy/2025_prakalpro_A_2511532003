@@ -47,6 +47,7 @@ public class NamaBulan {
 			default:
 				System.out.println("Angka tidak valid");
 		}
+		scanner.close();
 	}
 
 }
