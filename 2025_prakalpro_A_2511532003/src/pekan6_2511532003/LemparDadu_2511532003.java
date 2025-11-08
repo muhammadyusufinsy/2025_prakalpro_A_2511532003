@@ -8,8 +8,8 @@ public class LemparDadu_2511532003 {
 		int sum = 0;
 		while (sum != 7) {
 			
-			int dadu1 = rand.nextInt();
-			int dadu2 = rand.nextInt();
+			int dadu1 = rand.nextInt(6) + 1;
+			int dadu2 = rand.nextInt(6) + 1;
 			sum = dadu1 + dadu2;
 			System.out.println(dadu1 + " + " + dadu2 + " = " + sum);
 			tries++;

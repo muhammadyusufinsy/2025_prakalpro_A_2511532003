@@ -11,6 +11,7 @@ public class doWhile1_2511532003 {
 			phrase = console.next();
 			
 		} while (!phrase.equals("abcd"));
+		System.out.println("password anda diterima");
 	}
 
 }
